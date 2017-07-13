@@ -15,7 +15,7 @@ apply plugin: 'java'
 apply plugin: 'eclipse'
 apply plugin: 'org.springframework.boot'
 
-version = '0.0.1-SNAPSHOT'
+version = '1.0.0-SNAPSHOT'
 sourceCompatibility = 1.8
 
 repositories {
@@ -26,6 +26,6 @@ repositories {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter')
-	compile ('com.github.kingbbode:spring-boot-starter-chatbot:0.0.1-SNAPSHOT')
+	compile ('com.github.kingbbode:spring-boot-starter-chatbot:1.0.0-SNAPSHOT')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
