@@ -26,6 +26,6 @@ repositories {
 
 dependencies {
 	compile('org.springframework.boot:spring-boot-starter')
-	compile ('com.github.kingbbode:spring-boot-starter-chatbot:1.0.0')
+	compile ('com.github.ultzum:spring-boot-starter-chatbot:1.0.0')
 	testCompile('org.springframework.boot:spring-boot-starter-test')
 }
